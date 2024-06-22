@@ -8,7 +8,7 @@ class ScrollLoopAutoScroll extends StatefulWidget {
     required this.scrollDirection,
     Key? key,
     this.delay = const Duration(seconds: 1),
-    this.duration = const Duration(seconds: 50),
+    this.duration = Duration(seconds: 50),
     this.gap = 25,
     this.reverseScroll = false,
     this.duplicateChild = 25,
